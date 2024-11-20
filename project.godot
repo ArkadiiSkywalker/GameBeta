@@ -10,18 +10,12 @@ config_version=5
 
 [application]
 
-config/name="Beta 0.0 OBLAGLOBA"
-run/main_scene="res://world.tscn"
-config/features=PackedStringArray("4.3", "GL Compatibility")
+config/name="gameDEMO 1.0"
+run/main_scene="res://menu.tscn"
+config/features=PackedStringArray("4.3", "Forward Plus")
 config/icon="res://icon.svg"
-
-[display]
-
-window/size/viewport_width=500
-window/size/viewport_height=500
-window/size/mode=1
 
 [rendering]
 
-renderer/rendering_method="gl_compatibility"
-renderer/rendering_method.mobile="gl_compatibility"
+textures/canvas_textures/default_texture_filter=0
+renderer/rendering_method="mobile"
